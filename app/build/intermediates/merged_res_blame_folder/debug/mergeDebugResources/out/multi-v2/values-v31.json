@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "ait.android.flashcard.app-mergeDebugResources-67:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "/Users/amysaxon/.gradle/caches/transforms-4/62a4e0a1719cd6f437c252ff91ce3f18/transformed/jetified-core-splashscreen-1.0.1/res/values-v31/values-v31.xml",
+                    "from": {
+                        "startLines": "2,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,473",
+                        "endLines": "8,13",
+                        "endColumns": "12,12",
+                        "endOffsets": "468,697"
+                    }
+                }
+            ]
+        }
+    ]
+}

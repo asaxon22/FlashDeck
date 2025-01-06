@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_gemini.png.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/gemini.png"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_splash_background.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/splash_background.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ait.android.flashcard.app-debug-69:/drawable_card.png.flat",
+        "source": "ait.android.flashcard.app-main-71:/drawable/card.png"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_box.png.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/box.png"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_flashcardlogo.png.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/flashcardlogo.png"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/xml_backup_rules.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_information.png.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/information.png"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-debug-69:/drawable_deckicon.png.flat",
+        "source": "/Users/amysaxon/.gradle/daemon/8.7/ait.android.flashcard.app-main-71:/drawable/deckicon.png"
+    }
+]

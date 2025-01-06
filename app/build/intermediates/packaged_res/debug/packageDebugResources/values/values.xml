@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Flashcard</string>
+    <string name="back"><![CDATA[< Back]]></string>
+    <string name="back_side">Back side</string>
+    <string name="deck">Deck</string>
+    <string name="deck_info">Deck Info</string>
+    <string name="deck_name">Deck Name</string>
+    <string name="edit_card">Edit Card #%1$s</string>
+    <string name="empty_list">Empty list</string>
+    <string name="flip">Flip</string>
+    <string name="front_side">Front side</string>
+    <string name="generate_deck">Generate Deck</string>
+    <string name="next"><![CDATA[Next >]]></string>
+    <string name="next_card_browser">Next</string>
+    <string name="number_of_cards_to_make">Number of cards to make</string>
+    <string name="ok">OK</string>
+    <string name="please_include_a_back_side">Please include a back side</string>
+    <string name="please_include_a_deck_name">Please include a deck name</string>
+    <string name="please_include_a_front_side">Please include a front side</string>
+    <string name="please_remove_doubleline_from_back">Please remove || from back</string>
+    <string name="please_remove_doubleline_from_front">Please remove || from front</string>
+    <string name="please_remove_from_back">Please remove // from back</string>
+    <string name="please_remove_from_front">Please remove // from front</string>
+    <string name="prev">Prev</string>
+    <string name="save">Save</string>
+    <string name="start"><![CDATA[START >]]></string>
+    <string name="topic">Topic</string>
+    <style name="Theme.Flashcard" parent="android:Theme.Material.Light.NoActionBar"/>
+    <style name="Theme.SplashScreen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

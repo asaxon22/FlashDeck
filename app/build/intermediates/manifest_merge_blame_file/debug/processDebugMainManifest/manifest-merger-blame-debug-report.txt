@@ -1,0 +1,187 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ait.android.flashcard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include required permissions for Google Maps API to run. -->
+11-->[com.google.ai.client.generativeai:generativeai:0.9.0] /Users/amysaxon/.gradle/caches/transforms-4/65cbefb7463be7d5ee006908207a60b8/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:22:5-67
+11-->[com.google.ai.client.generativeai:generativeai:0.9.0] /Users/amysaxon/.gradle/caches/transforms-4/65cbefb7463be7d5ee006908207a60b8/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:22:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.android.gms:play-services-maps:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/cb4269a6dd17b0cbddb3396ae2c850fb/transformed/jetified-play-services-maps-9.4.0/AndroidManifest.xml:20:5-78
+12-->[com.google.android.gms:play-services-maps:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/cb4269a6dd17b0cbddb3396ae2c850fb/transformed/jetified-play-services-maps-9.4.0/AndroidManifest.xml:20:22-76
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/cb4269a6dd17b0cbddb3396ae2c850fb/transformed/jetified-play-services-maps-9.4.0/AndroidManifest.xml:22:5-24:33
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/cb4269a6dd17b0cbddb3396ae2c850fb/transformed/jetified-play-services-maps-9.4.0/AndroidManifest.xml:23:8-40
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/cb4269a6dd17b0cbddb3396ae2c850fb/transformed/jetified-play-services-maps-9.4.0/AndroidManifest.xml:24:8-31
+17
+18    <permission
+18-->[androidx.core:core:1.15.0] /Users/amysaxon/.gradle/caches/transforms-4/0ef2d2c5e34b77a98900573e12ab3b88/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+19        android:name="ait.android.flashcard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.15.0] /Users/amysaxon/.gradle/caches/transforms-4/0ef2d2c5e34b77a98900573e12ab3b88/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.15.0] /Users/amysaxon/.gradle/caches/transforms-4/0ef2d2c5e34b77a98900573e12ab3b88/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="ait.android.flashcard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.15.0] /Users/amysaxon/.gradle/caches/transforms-4/0ef2d2c5e34b77a98900573e12ab3b88/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.15.0] /Users/amysaxon/.gradle/caches/transforms-4/0ef2d2c5e34b77a98900573e12ab3b88/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:5:5-27:19
+25        android:name="ait.android.flashcard.MainApplication"
+25-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:6:9-40
+26        android:allowBackup="true"
+26-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:7:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.15.0] /Users/amysaxon/.gradle/caches/transforms-4/0ef2d2c5e34b77a98900573e12ab3b88/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:8:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:9:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:10:9-43
+33        android:label="@string/app_name"
+33-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:11:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:12:9-54
+35        android:supportsRtl="true"
+35-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:13:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.SplashScreen" >
+37-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:14:9-50
+38        <activity
+38-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:16:9-26:20
+39            android:name="ait.android.flashcard.MainActivity"
+39-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:17:13-41
+40            android:exported="true"
+40-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:18:13-36
+41            android:label="@string/app_name"
+41-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:19:13-45
+42            android:theme="@style/Theme.Flashcard" >
+42-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:20:13-51
+43            <intent-filter>
+43-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:21:13-25:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:22:17-69
+44-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:22:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:24:17-77
+46-->/Users/amysaxon/Desktop/FlashDeckProject/app/src/main/AndroidManifest.xml:24:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[com.google.android.gms:play-services-base:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/656a56d9326d7474ff1727f451b4aff7/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:20:9-22:45
+50            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+50-->[com.google.android.gms:play-services-base:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/656a56d9326d7474ff1727f451b4aff7/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:20:19-85
+51            android:exported="false"
+51-->[com.google.android.gms:play-services-base:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/656a56d9326d7474ff1727f451b4aff7/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:22:19-43
+52            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+52-->[com.google.android.gms:play-services-base:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/656a56d9326d7474ff1727f451b4aff7/transformed/jetified-play-services-base-9.4.0/AndroidManifest.xml:21:19-78
+53
+54        <meta-data
+54-->[com.google.android.gms:play-services-basement:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/502b924691bfe1b8cbf213ba884cef63/transformed/jetified-play-services-basement-9.4.0/AndroidManifest.xml:21:9-23:69
+55            android:name="com.google.android.gms.version"
+55-->[com.google.android.gms:play-services-basement:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/502b924691bfe1b8cbf213ba884cef63/transformed/jetified-play-services-basement-9.4.0/AndroidManifest.xml:22:13-58
+56            android:value="@integer/google_play_services_version" />
+56-->[com.google.android.gms:play-services-basement:9.4.0] /Users/amysaxon/.gradle/caches/transforms-4/502b924691bfe1b8cbf213ba884cef63/transformed/jetified-play-services-basement-9.4.0/AndroidManifest.xml:23:13-66
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+60            android:authorities="ait.android.flashcard.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/amysaxon/.gradle/caches/transforms-4/694ce62e565aa88fe1574aeeddde7965/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/amysaxon/.gradle/caches/transforms-4/247bd42b3922da21510248da129c22c5/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/amysaxon/.gradle/caches/transforms-4/247bd42b3922da21510248da129c22c5/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/amysaxon/.gradle/caches/transforms-4/247bd42b3922da21510248da129c22c5/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <activity
+73-->[androidx.compose.ui:ui-test-manifest:1.6.6] /Users/amysaxon/.gradle/caches/transforms-4/cfb14d4093ddda16e1ef27a1b849554e/transformed/jetified-ui-test-manifest-1.6.6/AndroidManifest.xml:23:9-25:39
+74            android:name="androidx.activity.ComponentActivity"
+74-->[androidx.compose.ui:ui-test-manifest:1.6.6] /Users/amysaxon/.gradle/caches/transforms-4/cfb14d4093ddda16e1ef27a1b849554e/transformed/jetified-ui-test-manifest-1.6.6/AndroidManifest.xml:24:13-63
+75            android:exported="true" />
+75-->[androidx.compose.ui:ui-test-manifest:1.6.6] /Users/amysaxon/.gradle/caches/transforms-4/cfb14d4093ddda16e1ef27a1b849554e/transformed/jetified-ui-test-manifest-1.6.6/AndroidManifest.xml:25:13-36
+76        <activity
+76-->[androidx.compose.ui:ui-tooling-android:1.6.6] /Users/amysaxon/.gradle/caches/transforms-4/d21e4a6abc5b6b3ab49c8874532d12ad/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+77            android:name="androidx.compose.ui.tooling.PreviewActivity"
+77-->[androidx.compose.ui:ui-tooling-android:1.6.6] /Users/amysaxon/.gradle/caches/transforms-4/d21e4a6abc5b6b3ab49c8874532d12ad/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+78            android:exported="true" />
+78-->[androidx.compose.ui:ui-tooling-android:1.6.6] /Users/amysaxon/.gradle/caches/transforms-4/d21e4a6abc5b6b3ab49c8874532d12ad/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+79
+80        <service
+80-->[androidx.room:room-runtime:2.6.1] /Users/amysaxon/.gradle/caches/transforms-4/b008bec5872ea1a6d6427f4b8d6fa6f5/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.6.1] /Users/amysaxon/.gradle/caches/transforms-4/b008bec5872ea1a6d6427f4b8d6fa6f5/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+82            android:directBootAware="true"
+82-->[androidx.room:room-runtime:2.6.1] /Users/amysaxon/.gradle/caches/transforms-4/b008bec5872ea1a6d6427f4b8d6fa6f5/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+83            android:exported="false" />
+83-->[androidx.room:room-runtime:2.6.1] /Users/amysaxon/.gradle/caches/transforms-4/b008bec5872ea1a6d6427f4b8d6fa6f5/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+84
+85        <receiver
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+86            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+87            android:directBootAware="false"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+88            android:enabled="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+89            android:exported="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+90            android:permission="android.permission.DUMP" >
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+92                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+95                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+98                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+101                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/amysaxon/.gradle/caches/transforms-4/add5d77ba90a70bdd8ad71195a1eb77c/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>
